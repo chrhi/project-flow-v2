@@ -103,7 +103,7 @@ export function SignInForm() {
           size="lg"
           disabled={isPending}
           className={cn(
-            "bg-blue-500 hover:bg-blue-700 text-white rounded-full h-12  "
+            "bg-orange-500 hover:bg-orange-700 text-white rounded-full h-12  "
           )}
         >
           {isPending && (
@@ -118,7 +118,7 @@ export function SignInForm() {
         <p>
           {" "}
           you don't have an account ?{" "}
-          <Link href={"/sign-up"} className="text-blue-500 text-lg ">
+          <Link href={"/sign-up"} className="text-orange-500 text-lg ">
             sign up
           </Link>
         </p>
